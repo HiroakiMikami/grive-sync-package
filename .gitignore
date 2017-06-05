@@ -1,0 +1,7 @@
+*
+!.gitignore
+!LICENSE
+!PKGBUILD
+!grive-sync
+!grive-sync@.service
+!grive-sync@.timer

@@ -1,0 +1,11 @@
+[Unit]
+Description=Grive Sync Daily
+
+[Timer]
+OnBootSec=1sec
+OnUnitActiveSec=1hour
+Persistent=true
+Unit=grive.service
+
+[Install]
+WantedBy=timers.target

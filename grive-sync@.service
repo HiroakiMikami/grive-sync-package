@@ -1,0 +1,9 @@
+[Unit]
+Description=Grive daemon
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/grive-sync
+
+[Install]
+WantedBy=default.target
