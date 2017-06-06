@@ -3,5 +3,5 @@
 !LICENSE
 !PKGBUILD
 !grive-sync
-!grive-sync@.service
-!grive-sync@.timer
+!grive-sync.service
+!grive-sync.timer

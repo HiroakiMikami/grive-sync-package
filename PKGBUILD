@@ -30,6 +30,6 @@ package() {
   # Add systemd service
   cd "$startdir"
   mkdir -p "$pkgdir/etc/systemd/user"
-  cp ./grive-sync@.service "$pkgdir/etc/systemd/user/"
-  cp ./grive-sync@.timer "$pkgdir/etc/systemd/user/"
+  cp ./grive-sync.service "$pkgdir/etc/systemd/user/"
+  cp ./grive-sync.timer "$pkgdir/etc/systemd/user/"
 }
